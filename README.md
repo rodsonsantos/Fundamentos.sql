@@ -1,59 +1,29 @@
-# 📊 Fundamentos de SQL - Análises de Vendas 🗄️
+# 📊 Projeto SQL – Análise de Vendas
 
-## 📚 Tecnologias Utilizadas
+Projeto desenvolvido com foco no aprendizado prático de SQL e análise de dados, simulando um ambiente de vendas.
 
-O projeto foi desenvolvido usando as seguintes tecnologias e ferramentas:
+## Objetivo
+Aplicar conceitos de SQL para estruturar dados, gerar indicadores e apoiar análises de negócio.
 
-- **MySQL 8.x** – Banco de dados relacional para criação de tabelas, inserção de dados e consultas.
-- **SQL padrão ANSI** – Garantindo compatibilidade com diferentes bancos de dados.
-- **VS Code** – IDE utilizada para editar e gerenciar os scripts SQL.
-- **MySQL Workbench** – Ferramenta para execução e visualização das queries e do banco de dados.
+## Tecnologias
+- MySQL 8
+- SQL (ANSI)
+- VS Code
+- MySQL Workbench
 
-> Repositório para estudo e prática de SQL, cobrindo criação de banco, tabelas, inserção de dados, joins, agregações, views e consultas avançadas.  
+## Principais atividades
+- Modelagem de banco de dados relacional
+- Criação e manipulação de tabelas
+- Consultas com JOINs e agregações
+- Criação de views para indicadores de faturamento e lucro
+- Análises por período, produto, categoria e cliente
 
----
+## Estrutura
+- Script SQL completo
+- Dump do banco de dados para fácil replicação do projeto
 
-## 🧩 Sobre o Projeto
+⚠️ Dados fictícios utilizados exclusivamente para fins educacionais.
 
-Este projeto demonstra como analisar dados de vendas usando **MySQL**, desde a criação de tabelas até a geração de **indicadores estratégicos**.  
-
-> ⚠️ **Atenção:** Todos os dados das tabelas foram gerados de forma **fictícia com auxílio do ChatGPT**, para agilizar o processo e fins didáticos.
-
-**Objetivos do projeto:**  
-
-- Criar bancos de dados e tabelas.  
-- Inserir e manipular dados fictícios.  
-- Criar **views** para análise de faturamento e lucro.  
-- Gerar indicadores e rankings de produtos, categorias e clientes.  
-- Entender o comportamento de vendas por dia, semana e mês.  
-- Desenvolver usando **VS Code** e **MySQL Workbench**.  
-
----
-
-## ⚙ Estrutura do Projeto
-
-O repositório contém:  
-
-- **`fundamentos_sql.sql`** – Script completo com:  
-  - Criação do banco de dados  
-  - Criação de tabelas (`vendas_lojas`, `clientes`, `tabela_completa`)  
-  - Inserção de dados fictícios  
-  - Colunas geradas para datas (`mes`, `Dia`, `Dia_semana`)  
-  - Criação de **views** (`faturamento_categoria`, `faturamento_produto`, `faturamento_dia`)  
-  - Consultas de exemplo e análises  
-
-- **Views e Consultas**  
-  - `faturamento_categoria` – faturamento e lucro por categoria  
-  - `faturamento_produto` – faturamento e lucro por produto  
-  - `faturamento_dia` – faturamento e lucro por dia da semana  
-
-- **Indicadores**  
-  - Clientes top (compras > 1000)  
-  - Compras por período  
-  - Rankings de produtos e categorias  
-  - Lucro total e faturamento total  
-
----
 
 
 
