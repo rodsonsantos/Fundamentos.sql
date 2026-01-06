@@ -1,4 +1,4 @@
-# 📊 Fundamentos de SQL – Análises de Vendas Básicas
+# 📊 Fundamentos de SQL – Análises Básicas de Vendas
 
 Projeto desenvolvido com foco no aprendizado prático de SQL e análise de dados, simulando um ambiente de vendas.
 
