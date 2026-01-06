@@ -9,11 +9,6 @@ O projeto foi desenvolvido usando as seguintes tecnologias e ferramentas:
 - **VS Code** – IDE utilizada para editar e gerenciar os scripts SQL.
 - **MySQL Workbench** – Ferramenta para execução e visualização das queries e do banco de dados.
 
-![MySQL](https://img.shields.io/badge/MySQL-8.0-blue) 
-![VS Code](https://img.shields.io/badge/VS%20Code-IDE-brightgreen) 
-![MySQL Workbench](https://img.shields.io/badge/MySQL_Workbench-IDE-orange) 
-![GitHub](https://img.shields.io/badge/GitHub-Repo-black)  
-
 > Repositório para estudo e prática de SQL, cobrindo criação de banco, tabelas, inserção de dados, joins, agregações, views e consultas avançadas.  
 
 ---
@@ -26,12 +21,12 @@ Este projeto demonstra como analisar dados de vendas usando **MySQL**, desde a c
 
 **Objetivos do projeto:**  
 
-- 🏗️ Criar bancos de dados e tabelas.  
-- 📝 Inserir e manipular dados fictícios.  
-- 📊 Criar **views** para análise de faturamento e lucro.  
-- 🏆 Gerar indicadores e rankings de produtos, categorias e clientes.  
-- 📅 Entender o comportamento de vendas por dia, semana e mês.  
-- 💻 Desenvolver usando **VS Code** e **MySQL Workbench**.  
+- Criar bancos de dados e tabelas.  
+- Inserir e manipular dados fictícios.  
+- Criar **views** para análise de faturamento e lucro.  
+- Gerar indicadores e rankings de produtos, categorias e clientes.  
+- Entender o comportamento de vendas por dia, semana e mês.  
+- Desenvolver usando **VS Code** e **MySQL Workbench**.  
 
 ---
 
@@ -40,12 +35,12 @@ Este projeto demonstra como analisar dados de vendas usando **MySQL**, desde a c
 O repositório contém:  
 
 - **`fundamentos_sql.sql`** – Script completo com:  
-  - 🏦 Criação do banco de dados  
-  - 🗂️ Criação de tabelas (`vendas_lojas`, `clientes`, `tabela_completa`)  
-  - 📥 Inserção de dados fictícios  
-  - 📆 Colunas geradas para datas (`mes`, `Dia`, `Dia_semana`)  
-  - 🔍 Criação de **views** (`faturamento_categoria`, `faturamento_produto`, `faturamento_dia`)  
-  - 📈 Consultas de exemplo e análises  
+  - Criação do banco de dados  
+  - Criação de tabelas (`vendas_lojas`, `clientes`, `tabela_completa`)  
+  - Inserção de dados fictícios  
+  - Colunas geradas para datas (`mes`, `Dia`, `Dia_semana`)  
+  - Criação de **views** (`faturamento_categoria`, `faturamento_produto`, `faturamento_dia`)  
+  - Consultas de exemplo e análises  
 
 - **Views e Consultas**  
   - `faturamento_categoria` – faturamento e lucro por categoria  
@@ -53,10 +48,10 @@ O repositório contém:
   - `faturamento_dia` – faturamento e lucro por dia da semana  
 
 - **Indicadores**  
-  - 👑 Clientes top (compras > 1000)  
-  - 📊 Compras por período  
-  - 🏅 Rankings de produtos e categorias  
-  - 💰 Lucro total e faturamento total  
+  - Clientes top (compras > 1000)  
+  - Compras por período  
+  - Rankings de produtos e categorias  
+  - Lucro total e faturamento total  
 
 ---
 
